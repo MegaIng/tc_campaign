@@ -11,7 +11,7 @@ dialogue = [
 Most instructions take 2 arguments and produce 1 result (like ADD, OR etc). 
 
 [color=#e49f44]Symphony[/color] uses 4 bytes per instruction and can encode all three in each instruction. This means we can for example ADD any two registers and store the result in any other register.`),
-  (info, `These are the names of the 8 registers of [color=#e49f44]Symphony[/color]:
+  (info, `These are the names of the 16 registers of [color=#e49f44]Symphony[/color]:
 
 [code]
 0 zr
@@ -37,8 +37,8 @@ Most instructions take 2 arguments and produce 1 result (like ADD, OR etc).
   (info, `Do the following to complete this level:
     
 [b]1.[/b] Place a ROM and set the output width it to 32 bit. Click on it and set the byte size to 65536.
-[b]2.[/b] Add 7 registers, using the custom component build in an earlier level
-[b]3.[/b] Click "Edit link components" on the program component and connect the 7 registers. (do not connect the zr register)
+[b]2.[/b] Add 15 registers, using the custom component build in an earlier level
+[b]3.[/b] Click "Edit link components" on the program component and connect the 15 registers. (do not connect the zr register)
 `),
   (info, `Finally, implement the NAND instruction.
 
